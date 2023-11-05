@@ -73,3 +73,7 @@ Para que el proyecto funcione lea y siga los siguientes puntos:
 2. En Visual Studio Code (FrontEnd): Abra una consola y ejecute el comando "ng serve -o".
 3. Se abrira una pestalla llamada [http://localhost:4200/clientes](http://localhost:4200/clientes) en su navegador
 
+# Informacion para autenticacion con JWT
+
+El proyecto maneja authenticacion mediante JWT, por lo tanto requerira de un usuario y una contraseña para autenticarse e ingresar a varias funcionalidades del proyecto, que adicionalmente estan denegadas a su acceso si no tiene el rol corresponiente. Por lo anterior se tienen 2 usuarios principales, estos los puedes observar y modificar en el archivo data.sql, la contraseña inicial es "secreto"
+
